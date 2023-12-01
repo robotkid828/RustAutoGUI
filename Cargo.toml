@@ -1,0 +1,16 @@
+[package]
+name = "RustAutoGUI"
+version = "0.1.0"
+edition = "2021"
+authors = "robotkid828"
+description = "A nearly identical version of PyAutoGUI for Rust."
+repository = "https://github.com/robotkid828/RustAutoGUI"
+license = "AGPL-3.0-only"
+keywords = ["keyboard", "mouse", "control"]
+categories = ["multimedia"]
+
+[dependencies]
+image = "0.24.7"
+screenshots = "0.8.5"
+enigo = "0.1.3"
+spin_sleep = "1.1.1"
